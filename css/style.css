@@ -1,0 +1,66 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* Nav */
+nav {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    display: inline-block;
+    color: white;
+    
+}
+ /* Viewport */
+.shoe {
+    height: calc(110vh - 20px);
+    width: 100%;
+    position: relative;
+}
+
+.shoe::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.product {
+    position: absolute;
+    top: 0%;
+    left: 28%;
+    transform: translate(-15% - -30%);
+}
+
+/* img */
+.shoe img {
+    height: 60%;
+    
+}
+ /* Text */
+.shoes-text {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: yellow;
+    font-weight: bold;
+    
+}
+#yellow .shoes-text {
+    color: green;
+}
+
+
+/* Shoes */
+#red {
+    background-color: red;  
+}
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
