@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
  /* Nav */
 nav {
     position: fixed;
@@ -16,6 +17,8 @@ nav {
 li {
     display: inline-block;
     list-style-type: none;
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 a { 
@@ -25,16 +28,14 @@ a {
     margin-right: 50px;
     font-weight: bold;
     text-align: center;
-    
-}
-.circle {
-    display: inline-table;
+    font-family: "Rubik Mono One";
+    display: inline-block;
     width: 35px;
-    height: 25px;
-    border-radius: 25px;
+    height: 35px;
+    border-radius: 50%;
     background-color: white;
-    text-align: center;
-    margin-top: 20px;
+    line-height: 35px;
+    
 }
 
  /* Viewport */
@@ -57,7 +58,8 @@ a {
     position: absolute;
     top: 0%;
     left: 28%;
-    transform: translate(-15% - -30%);
+    transform: translate(-50% - -50%);
+    width: 40%;
 }
 
 /* img */
@@ -65,18 +67,19 @@ a {
     height: 60%;
     
 }
+
  /* Text */
 .shoes-text {
     text-transform: uppercase;
     font-size: 50px;
     color: yellow;
     font-weight: bold;
-    
+    font-family: "Rubik Mono One";
+    text-align: center;
 }
 #yellow .shoes-text {
     color: green;
 }
-
 
 /* Shoes */
 #red {
